@@ -12,6 +12,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_k6um49j', 'template_abin4s4', form.current, 'yx-QnaqQnT2p3T5-u');
+    alert("Message Send Successfuly");
     e.target.reset()
   };
   return (
